@@ -1,0 +1,74 @@
+/* src/components/HomePage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.homepage {
+    text-align: center;
+    padding: 50px;
+}
+
+.company-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.company-header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.company-header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.job-search {
+    margin-top: 50px;
+}
+
+.job-search h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.job-search input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.search-results {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.job-item p {
+    margin: 0;
+    color: #666;
+}
